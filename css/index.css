@@ -1,0 +1,32 @@
+.top-header {
+  background-color: #0d369f;
+  padding: 14px 15px;
+}
+
+.top-header .top-headers ul {
+  list-style: none;
+  padding: 0;
+  margin-bottom: 0;
+}
+
+.top-header .top-headers ul li {
+  display: inline-block;
+  margin-right: 30px;
+  color: #fff;
+}
+
+.top-header .top-headers ul li a {
+  text-decoration: none;
+  font-weight: 500;
+  font-size: 15px;
+  color: #fff;
+  transition: all 0.5s;
+}
+
+.top-header .top-headers ul li:hover a {
+  color: #ff6e65;
+}
+
+.top-header .top-headers-2 ul .linkedin {
+  margin-right: 0;
+}
