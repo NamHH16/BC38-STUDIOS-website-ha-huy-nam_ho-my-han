@@ -92,17 +92,22 @@
           <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav me-auto mb-2 mb-lg-0">
               <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="#">Home</a>
+                <a
+                  class="nav-link active text-dark fw-semibold"
+                  aria-current="page"
+                  href="#"
+                  >Home</a
+                >
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">About Us</a>
+                <a class="nav-link text-dark fw-semibold" href="#">About Us</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">Courses</a>
+                <a class="nav-link text-dark fw-semibold" href="#">Courses</a>
               </li>
               <li class="nav-item dropdown">
                 <a
-                  class="nav-link dropdown-toggle"
+                  class="nav-link dropdown-toggle text-dark fw-semibold"
                   href="#"
                   role="button"
                   data-bs-toggle="dropdown"
@@ -111,41 +116,83 @@
                   Pages
                 </a>
                 <ul class="dropdown-menu">
-                  <li><a class="dropdown-item" href="#">Blog Post</a></li>
-                  <li><a class="dropdown-item" href="#">Blog Single</a></li>
                   <li>
-                    <a class="dropdown-item" href="#">404 Page</a>
+                    <a class="dropdown-item text-dark fw-semibold" href="#"
+                      >Blog Post</a
+                    >
                   </li>
                   <li>
-                    <a class="dropdown-item" href="#">Email Template</a>
+                    <a class="dropdown-item text-dark fw-semibold" href="#"
+                      >Blog Single</a
+                    >
                   </li>
                   <li>
-                    <a class="dropdown-item" href="#">Landing Page</a>
+                    <a class="dropdown-item text-dark fw-semibold" href="#"
+                      >404 Page</a
+                    >
                   </li>
                   <li>
-                    <a class="dropdown-item" href="#">Shortcodes</a>
+                    <a class="dropdown-item text-dark fw-semibold" href="#"
+                      >Email Template</a
+                    >
+                  </li>
+                  <li>
+                    <a class="dropdown-item text-dark fw-semibold" href="#"
+                      >Landing Page</a
+                    >
+                  </li>
+                  <li>
+                    <a class="dropdown-item text-dark fw-semibold" href="#"
+                      >Shortcodes</a
+                    >
                   </li>
                 </ul>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">Contact Us</a>
+                <a class="nav-link text-dark fw-semibold" href="#"
+                  >Contact Us</a
+                >
               </li>
             </ul>
-            <form class="d-flex" role="search">
-              <input
-                class="form-control me-2"
-                type="search"
-                placeholder="Search"
-                aria-label="Search"
-              />
-              <button class="btn btn-outline-success" type="submit">
-                Search
-              </button>
-            </form>
           </div>
         </nav>
       </div>
     </header>
+
+    <!-- CAROUSEL -->
+    <section class="slider">
+      <div
+        id="carousel-1"
+        class="carousel carousel-dark slide"
+        data-bs-ride="carousel"
+      >
+        <div class="carousel-indicators">
+          <button
+            type="button"
+            data-bs-target="#carousel-1"
+            data-bs-slide-to="0"
+            class="active"
+            aria-label="Slide 1"
+            aria-current="true"
+          ></button>
+          <button
+            type="button"
+            data-bs-target="#carousel-1"
+            data-bs-slide-to="1"
+            aria-label="Slide 2"
+            class=""
+          ></button>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active" data-bs-interval="10000">
+            <img src="./img/banner2.jpg" alt="" />
+          </div>
+          <div class="carousel-item" data-bs-interval="2000">
+            <img src="./img/banner3.jpg" alt="" />
+          </div>
+        </div>
+      </div>
+    </section>
     <!-- JS BS -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
   </body>
