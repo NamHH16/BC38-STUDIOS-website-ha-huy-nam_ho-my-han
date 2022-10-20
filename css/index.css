@@ -23,7 +23,11 @@
   transition: all 0.5s;
 }
 
-.top-header .top-headers ul li:hover a {
+.top-header .top-headers ul li:hover a,
+header .navbar-brand:hover span,
+header .navStudious .navbarStudious .navbar-nav > li:hover > a,
+header .navStudious .navbarStudious .dropdown-menu > li:hover > a,
+header .navStudious .navbarStudious .dark-mode:hover i {
   color: #ff6e65;
 }
 
@@ -32,19 +36,84 @@
 }
 
 /* NAVBAR */
-header .navbar {
+header {
+  height: 90px;
+}
+
+header .navStudious {
   padding: 19.2px 16px;
 }
 
-header .navbar .navbar-brand {
-  font-size: 26px;
-  color: #0d369f;
+header .navStudious a {
+  color: #000;
+  font-weight: 600;
 }
 
-header .navbar .navbar-collapse ul {
+header .navStudious .navbarStudious {
+  justify-content: flex-end;
+  align-items: center;
+}
+
+header .navStudious .navbar-brand {
+  font-size: 26px;
+  color: #0d369f;
+  font-weight: 600;
+}
+
+header .navStudious .navbar-brand span {
+  vertical-align: middle;
+  transition: all 0.5s;
+}
+
+header .navStudious .navbar-collapse ul {
   font-size: 16px;
   text-transform: uppercase;
   color: #000 !important;
+}
+
+header .navStudious .navbarStudious .navbar-nav .nav-link.active {
+  color: #ff6e65;
+}
+
+header .navStudious .navbarStudious li a {
+  transition: all 0.5s;
+  background-color: transparent;
+}
+
+header .navStudious .navbarStudious .dropdown-menu {
+  transform: translateX(-50px);
+  border: 1px solid transparent;
+  box-shadow: rgba(12, 12, 12, 0.1) 0 1px 20px 0;
+  padding: 15px;
+}
+
+header .navStudious .search-right .search-text input {
+  background: transparent;
+  padding: 10px 35px 10px 14px;
+  width: 100%;
+  border-radius: 30px;
+  border: 2px solid #eee;
+}
+
+header .navStudious .search-right .btn-icon {
+  padding: 10px 12px 10px 2px;
+  right: 0;
+}
+
+header .navStudious .search-right .btn-icon i {
+  color: #0d369f;
+}
+
+header .navStudious .navbarStudious .dark-mode {
+  margin-left: 20px;
+}
+
+header .navStudious .navbarStudious .dark-mode a {
+}
+
+header .navStudious .navbarStudious .dark-mode i {
+  transition: all 0.5s;
+  font-size: 25px;
 }
 
 /* CAROUSEL */
