@@ -228,6 +228,11 @@ header .navStudious .navbarStudious .dark-mode i {
   text-align: center;
 }
 
+.container {
+  max-width: 1200px;
+  padding: 3rem 15px;
+}
+
 .heading {
   padding-bottom: 1.5rem;
   margin-bottom: 3rem;
@@ -303,12 +308,13 @@ header .navStudious .navbarStudious .dark-mode i {
 }
 
 /* COURSES */
-.courses .heading {
-  text-align: center;
+.courses {
+  padding: 3rem 0;
+  background: #f8f9ff;
 }
 
-.courses .courses-container {
-  max-width: 1200px;
+.courses .heading {
+  text-align: center;
 }
 
 .courses .row .blog-card-single {
@@ -474,4 +480,65 @@ header .navStudious .navbarStudious .dark-mode i {
 
 .courses .more-button .btn-style i {
   vertical-align: middle;
+}
+
+/* FEATURES */
+.features {
+  background: url(../img/bg3.jpg);
+  background-repeat: no-repeat;
+  background-position: bottom;
+  background-size: cover;
+  padding: 3rem 0;
+}
+
+.features .row {
+  padding-bottom: 3rem;
+  margin-bottom: 1.5rem;
+}
+
+.features .content-row {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.features .content-row .item-col {
+  padding: 0 15px;
+}
+
+.features .content-row .item {
+  background-color: #fff;
+  padding: 30px;
+  border-radius: 8px;
+  display: flex;
+  align-items: center;
+}
+
+.features .content-row .item .icon {
+  margin-right: 16px;
+}
+
+.features .content-row .item .icon i {
+  color: #0d369f;
+  font-size: 28px;
+  background: rgb(13 54 159 / 9%);
+  width: 65px;
+  height: 65px;
+  line-height: 65px;
+  border-radius: 50%;
+  text-align: center;
+}
+
+.features .content-row .item .info h5 {
+  font-size: 20px;
+  line-height: 30px;
+  color: #060606;
+  font-weight: 600;
+  margin-bottom: 6px;
+}
+
+.features .content-row .item .info p {
+  font-size: 16px;
+  line-height: 28px;
+  color: #707070;
+  letter-spacing: 0.4px;
 }
