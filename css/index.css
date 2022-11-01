@@ -42,6 +42,21 @@ header {
 
 header .navStudious {
   padding: 19.2px 16px;
+  overflow: hidden;
+  background: #fff;
+}
+
+/* CSS W3 */
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  height: 70px;
+  z-index: 3;
+}
+
+.sticky + .content {
+  padding-top: 60px;
 }
 
 header .navStudious a {
@@ -52,6 +67,8 @@ header .navStudious a {
 header .navStudious .navbarStudious {
   justify-content: flex-end;
   align-items: center;
+  position: relative;
+  z-index: 2;
 }
 
 header .navStudious .navbar-brand {
@@ -177,6 +194,10 @@ header .navStudious .navbarStudious .dark-mode i {
   position: relative;
   margin-top: -4rem;
   padding-bottom: 48px;
+}
+
+.services .container {
+  padding-top: 0;
 }
 
 .services .main .item {
@@ -633,6 +654,7 @@ header .navStudious .navbarStudious .dark-mode i {
 
 .team .row .item .img {
   position: relative;
+  overflow: hidden;
 }
 
 .team .row .item img {
@@ -871,4 +893,50 @@ footer .content .col-right .column-2 ul li a {
   font-size: 15px;
   line-height: 20px;
   color: #a0a0a0;
+}
+
+/* RESPONSIVE */
+
+/* desktop lg*/
+@media screen and (max-width: 1200px) {
+}
+
+/* tablet md*/
+@media screen and (max-width: 991.98px) {
+  .navStudious .navbarStudious {
+    background-color: #fff;
+    text-align: center;
+    max-width: 100%;
+  }
+
+  .navStudious .navbarStudious .search-right form {
+    justify-content: center;
+  }
+
+  header .navStudious .search-right .btn-icon {
+    right: 38%;
+  }
+
+  header .navStudious .navbarStudious .dark-mode {
+    margin: 20px 0;
+  }
+
+  .services .main .item-3,
+  .services .main .item-4 {
+    margin-top: 20px;
+  }
+
+  .courses .card-1,
+  .courses .card-2,
+  .courses .card-3 {
+    margin-top: 48px;
+  }
+}
+
+/* phone ngang sm*/
+@media screen and (max-width: 768px) {
+}
+
+/* phone doc xs */
+@media screen and (max-width: 576px) {
 }
