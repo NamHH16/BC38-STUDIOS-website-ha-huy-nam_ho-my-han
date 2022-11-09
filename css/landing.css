@@ -139,6 +139,10 @@ header .navStudious .navbarStudious .dark-mode i {
   object-fit: cover;
 }
 
+#carouselStudious .carousel-item a {
+  text-decoration: none;
+}
+
 #carouselStudious .carousel-caption-1 {
   padding-bottom: 5rem;
 }
