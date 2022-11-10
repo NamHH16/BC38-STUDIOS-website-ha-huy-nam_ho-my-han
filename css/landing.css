@@ -63,6 +63,12 @@ header .navStudious a {
   font-weight: 600;
 }
 
+header .navStudious .nav-item i {
+  font-size: 12px;
+  vertical-align: middle;
+  margin-bottom: 4px;
+}
+
 header .navStudious .navbarStudious {
   justify-content: flex-end;
   align-items: center;
@@ -101,6 +107,18 @@ header .navStudious .navbarStudious .dropdown-menu {
   border: 1px solid transparent;
   box-shadow: rgba(12, 12, 12, 0.1) 0 1px 20px 0;
   padding: 15px;
+}
+
+header .navStudious .navbarStudious .dropdown-menu::after {
+  content: "";
+  position: absolute;
+  display: block;
+  top: 0;
+  left: 50%;
+  border-bottom: 10px solid white;
+  border-left: 10px solid transparent;
+  border-right: 10px solid transparent;
+  transform: translateY(-100%) translateX(-50%);
 }
 
 header .navStudious .search-right .search-text input {
@@ -687,6 +705,11 @@ header .navStudious .navbarStudious .dark-mode i {
   background-color: #fff;
   display: inline-block;
   border-radius: 50%;
+  transition: all 0.3s;
+}
+
+.team .row .item .team-contact a:hover {
+  opacity: 0.8;
 }
 
 .team .row .item .team-contact a:nth-of-type(2) {
@@ -882,6 +905,7 @@ footer .content .footer-bottom .col-left a i {
 
 footer .content .footer-bottom .col-right {
   border-left: 1px solid rgb(64 73 82 / 51%);
+  padding-left: 48px;
 }
 
 footer .content .footer-bottom .col-right p {
@@ -979,6 +1003,11 @@ footer .content .col-right .column-2 ul li a {
     right: 38%;
   }
 
+  header .navStudious .navbarStudious .dropdown-menu {
+    text-align: center;
+    transform: translateX(0);
+  }
+
   header .navStudious .navbarStudious .dark-mode {
     margin: 20px 0;
   }
@@ -993,12 +1022,33 @@ footer .content .col-right .column-2 ul li a {
   .courses .card-3 {
     margin-top: 48px;
   }
+
+  footer .content .footer-bottom .col-right {
+    padding-left: 12px;
+  }
 }
 
 /* phone ngang sm*/
 @media screen and (max-width: 768px) {
 }
 
+@media screen and (max-width: 767.99px) {
+  .top-header {
+    display: none;
+  }
+
+  #carouselStudious .carousel-caption h5 {
+    font-size: 50px;
+  }
+
+  .services .main .item-2 {
+    margin-top: 20px;
+  }
+
+  .features .content-row .item-2 {
+    margin-top: 24px;
+  }
+}
 /* phone doc xs */
 @media screen and (max-width: 576px) {
 }

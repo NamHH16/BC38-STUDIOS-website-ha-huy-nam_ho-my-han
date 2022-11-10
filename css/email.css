@@ -411,3 +411,19 @@ footer .content .item a {
   color: #fff;
   text-decoration: none;
 }
+
+/* RESPONSIVE */
+
+/* desktop lg*/
+@media screen and (max-width: 1200px) {
+}
+
+/* tablet md*/
+@media screen and (max-width: 991.98px) /* phone ngang sm*/ @media screen and (max-width: 768px) {
+}
+
+@media screen and (max-width: 767.99px) {
+}
+
+/* phone doc xs */
+@media screen and (max-width: 576px);
