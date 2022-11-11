@@ -178,7 +178,7 @@ body, html{
 }
 /* CAROUSEL  */
 .carousel .container{
-    /* max-width: 1200px; */
+    max-width: 1200px;
     margin: auto;
 }
 .carousel{

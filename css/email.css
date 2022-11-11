@@ -109,8 +109,10 @@ header .logo-header h1 a {
 }
 
 /* FEATURES */
-
-.features .content {
+.features{
+  /* background-color: #f8f9ff; */
+}
+.features .container {
   background: #f8f9ff;
   padding: 40px;
 }
@@ -151,6 +153,12 @@ header .logo-header h1 a {
 }
 
 /* APPLY */
+.apply{
+  
+}
+.apply .container{
+  padding: 0;
+}
 .apply .content {
   background-image: url(../img/bg3.jpg);
   background-size: cover;
@@ -245,7 +253,9 @@ header .logo-header h1 a {
 }
 
 /* TEAM */
-
+.team.container{
+  background: #f8f9ff;
+}
 .team .content > h3 {
   color: #060606;
   font-size: 30px;
@@ -256,7 +266,7 @@ header .logo-header h1 a {
 }
 
 .team .content {
-  background: #f8f9ff;
+  /* background: #f8f9ff; */
   padding: 40px;
 }
 
@@ -288,6 +298,15 @@ header .logo-header h1 a {
 }
 
 /* STAT */
+.stat{
+  
+}
+.stat .container{
+  padding: 0;
+  margin: 0 auto;
+
+  /* width: 100%; */
+}
 .stat .content {
   background-image: url(../img/bg1.jpg);
   background-size: cover;
@@ -359,10 +378,15 @@ header .logo-header h1 a {
 }
 
 /* FOOTER */
-
+footer {
+  
+}
+footer .container{
+  background: #031427;
+}
 footer .content {
   padding: 40px;
-  background: #031427;
+  
 }
 
 footer .content .item h3 {
@@ -395,15 +419,18 @@ footer .content .item a {
 }
 
 /* COPPY_RIGHT */
-
+.coppy-right .container{
+  background: #001021;
+}
 .coppy-right .content p {
   padding: 0.7em 2.5em;
   text-align: center;
-  background: #001021;
+  
   color: #707070;
   font-size: 15px;
   line-height: 22px;
   letter-spacing: 0.4px;
+  margin: 0;
 }
 
 .coppy-right .content p a {
@@ -412,18 +439,57 @@ footer .content .item a {
   text-decoration: none;
 }
 
-/* RESPONSIVE */
 
-/* desktop lg*/
-@media screen and (max-width: 1200px) {
+/* RESPONSIVE  */
+
+@media screen and (max-width: 640px){
+  /* HEADER  */
+  header .logo-header h1{
+    padding: 0 40px;
+  }
+  /* SLIDER  */
+  .slider .slider-item .overlay h5{
+    font-size: 1.7em;
+    width: 90%;
+  }
+  /* WELCOME  */
+  .welcome .content .row{
+    display: block;
+  }
+  .welcome .content .content-right h3{
+    font-size: 18px;
+  }
+  /* FEATURES  */
+  .features .content .item{
+    margin-bottom: 30px;
+  }
+  /* APPLY  */
+  .apply .content .overlay .text{
+    margin: 0 auto;
+  }
+  /* COURSE  */
+  .courses .content .row{
+    width: 70%;
+    margin: auto;
+    text-align: center;
+    
+  }
+  .courses .content .row .item{
+    margin-bottom: 30px ;
+  }
+  /* TEAMS  */
+  .team .content .item img{
+    margin: 0;
+  }
+  .team .content .item{
+    margin-bottom: 20px;
+  }
+  /* INTRO  */
+  .intro .content h3{
+    font-size: 18px;
+  }
+  /* FOOTER  */
+  footer .content .row > .item{
+    margin-bottom: 20px;
+  }
 }
-
-/* tablet md*/
-@media screen and (max-width: 991.98px) /* phone ngang sm*/ @media screen and (max-width: 768px) {
-}
-
-@media screen and (max-width: 767.99px) {
-}
-
-/* phone doc xs */
-@media screen and (max-width: 576px);
