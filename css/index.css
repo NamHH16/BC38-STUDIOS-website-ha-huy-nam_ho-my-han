@@ -217,7 +217,7 @@ header .navStudious .navbarStudious .dropdown-menu::after{
   line-height: 80px;
   font-weight: bold;
   color: #fff;
-  width: 40%;
+  width: 50%;
   text-align: start;
   margin-bottom: 50px;
 }
