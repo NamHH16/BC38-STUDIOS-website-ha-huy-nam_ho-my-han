@@ -1092,6 +1092,16 @@ footer .footer-bottom .item {
     height: auto;
     /* padding: 19px 0px 0px !important; */
   }
+  header .navStudious .navbarStudious.show{
+    text-align: center;
+  }
+  header .navStudious .navbarStudious.show form{
+    width: 40%;
+    margin: auto;
+  }
+  header .navStudious .navbarStudious.show form .input-search{
+    width: 100%;
+  }
   .navStudious .navbar-brand {
     padding-bottom: 0;
   }

@@ -842,6 +842,13 @@ a.backToTop i {
   .header_bottom i.gg-moon {
     display: none;
   }
+  .header_bottom .navbar-expand-lg .navbar-collapse.show{
+    text-align: center;
+  }
+  .header_bottom .navbar-expand-lg .navbar-collapse.show .formsearch{
+    width: 40%;
+    margin: auto;
+  }
   /* CAROUSEL  */
   .carousel {
     min-height: 300px;
