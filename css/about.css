@@ -185,7 +185,7 @@ body, html{
     display: none;
 }
 .header_bottom li.tag_a_toggle a{
-    text-align: center;
+    /* text-align: center; */
 }
 /* CAROUSEL  */
 .carousel .container{
@@ -267,6 +267,17 @@ body, html{
     background: rgb(12 12 12 / 22%);
     transition: 0.4s;
 }
+.mission .right a:hover{
+    width: 90px;
+    height: 90px;
+    line-height: 80px;
+    
+}
+.mission .right a:hover i{
+    font-size: 40px;
+}
+
+
 .mission .right i{
     padding-left: 10px;
     transition: 0.3s ease-in-out;
@@ -275,22 +286,10 @@ body, html{
     -webkit-text-stroke-width: 4px;
     -webkit-text-stroke-color: white;
     color: transparent;
-    transition: 0.4s;
+    /* transition: 0.4s; */
     
 }
 
-
-/* .mission .right .iconplay::after{
-    content: '';
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translateX(-50%) translateY(-50%);
-    border-left: 20px solid rgba(255, 0, 0, 0.096);
-    border-top: 12px solid transparent;
-    border-bottom: 12px solid transparent;
-    color: transparent;
-} */
 .mission .right img{
     border-radius: 10px;
 }
@@ -475,9 +474,7 @@ body, html{
     left: 50%;
     
 }
-.teams .title{
-    
-}
+
 .teams .title h1{
     font-size: 40px;line-height: 50px;
     margin-bottom: 0;
@@ -487,9 +484,7 @@ body, html{
 
 .teams .title span{
     color: #ff6e65;
-    /* font-size: 40px;
-    line-height: normal; */
-    /* font-weight: 600; */
+    
 }
 .teams .main .container{
     max-width: 1200px;
@@ -497,21 +492,21 @@ body, html{
 .teams .main .content{
     display: grid;
     grid-template-columns: repeat(4, 1fr);
-    /* gap: 30px; */
+    
     column-gap: 30px;
     row-gap: 50px;
     text-align: center;
 }
 .teams .main .item{
-    /* background-color: green; */
+    
     padding: 10px;
     box-shadow: 0 20px 62px rgb(4 20 69 / 10%);
     border-radius: 10px;
 }
 .teams .main .item .top{
-    /* background-color: red; */
+    
     position: relative;
-    /* margin-bottom: 20px; */
+    
     overflow: hidden;
 }
 .teams .main .item .top .social{
@@ -1200,10 +1195,7 @@ body, html{
     .footer .bottom .item{
         margin-top: 30px;
     }
-    /* .footer .footer_about{
-        border: none;
-        padding-left: 0;
-    } */
+
     .footer .bottom .row{
         display: flex;
     }
@@ -1261,63 +1253,22 @@ body, html{
         padding: 0 12px;
     }
     /* NUMBER  */
-    /* .number{
-        padding: 0 0 80px;
-    }
-    .number .item p:first-of-type{
-        font-size: 35px;
-    }
-    .number .item p:last-of-type{
-        font-size: 13px;
-        line-height: 20px;
-    } */
+    
     /* SERVICES  */
-    /* .services .content{
-        display: block;
-    }
-    .services .content .item{
-        margin-bottom: 20px;
-    } */
+    
     /* TEAMS  */
     .teams .title h1{
         font-size: 35px;
     }
-    /* .teams .main .content{
-        display: block;
-        padding: 20px 15px;
-    }
-    .teams .main .item {
-        margin-bottom: 30px;
-    }
-    .teams .main .item .top img{
-        width: 100%;
-    } */
+    
     /* EDUCATION  */
     .education .title h1{
         font-size: 32px;
         line-height: 44px;
     }
-    /* .education .left{
-        padding: 0 12px;
-    }
-    .education .right{
-        margin-top: 30px;
-    } */
+    
     /* FOOTER  */
-    /* .footer .top{
-        width: 95%;
-        padding: 50px 25px;
-    }
-    .footer .top h1{
-        font-size: 30px;
-    }
-    .footer .bottom .item{
-        margin-top: 30px;
-    }
-    .footer .footer_about{
-        border: none;
-        padding-left: 0;
-    } */
+   
 
 }
 @media screen and (max-width:420px){
@@ -1361,59 +1312,15 @@ body, html{
         padding: 0 !important;
     }
     /* MISSTION 
-    .title h1{
-        font-size: 32px;
-        line-height: 44px;
-    }
-    .mission .title p{
-        color: #707070;
-    }
-    .mission .right{
-        margin-top: 30px;
-    } */
+    */
     /* NUMBER  */
-    /* .number{
-        padding: 0 0 80px;
-    }
-    .number .item p:first-of-type{
-        font-size: 35px;
-    }
-    .number .item p:last-of-type{
-        font-size: 13px;
-        line-height: 20px;
-    } */
+    
     /* SERVICES  */
-    /* .services .content{
-        display: block;
-    }
-    .services .content .item{
-        margin-bottom: 20px;
-    } */
+    
     /* TEAMS  */
-    /* .teams .title h1{
-        font-size: 35px;
-    }
-    .teams .main .content{
-        display: block;
-        padding: 20px 15px;
-    }
-    .teams .main .item {
-        margin-bottom: 30px;
-    }
-    .teams .main .item .top img{
-        width: 100%;
-    } */
+    
     /* EDUCATION  */
-    /* .education .title h1{
-        font-size: 32px;
-        line-height: 44px;
-    }
-    .education .left{
-        padding: 0 12px;
-    }
-    .education .right{
-        margin-top: 30px;
-    } */
+    
     /* FOOTER  */
     .footer .top{
         width: 95%;
@@ -1544,25 +1451,10 @@ body, html{
     .footer .top h1{
         font-size: 30px;
     }
-    /* .footer .top .right .formmail{
-        display: block;
-    }
-    .footer .top .right input[type="text"], .footer .top .right input[type="submit"]{
-        border-radius: 5px;
-    }
-    .footer .top .right input[type="submit"]{
-        margin-top: 20px;
-        width: 100%;
-    } */
+    
     .footer .bottom{
         padding: 220px 0px 80px;
     }
-    /* .footer .bottom .item{
-        margin-top: 30px;
-    }
-    .footer .footer_about{
-        border: none;
-        padding-left: 0;
-    } */
+    
 }
  
