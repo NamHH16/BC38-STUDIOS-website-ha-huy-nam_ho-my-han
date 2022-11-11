@@ -9,6 +9,12 @@
       W3Layouts
     </title>
 
+    <!-- FLATICON  -->
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+
     <!-- FONTAWESOME -->
     <link
       rel="stylesheet"
@@ -121,13 +127,13 @@
               </li>
               <li class="nav-item dropdown">
                 <a
-                  class="nav-link dropdown-toggle"
+                  class="nav-link"
                   href="#"
                   role="button"
                   data-bs-toggle="dropdown"
                   aria-expanded="false"
                 >
-                  Pages <i class="fa-solid fa-angle-down"></i>
+                  Pages <i class="fa-solid fa-angle-down"></i> <i class="fa-solid fa-angle-down"></i>
                 </a>
                 <ul class="dropdown-menu">
                   <li><a class="dropdown-item" href="#">Blog Posts</a></li>
@@ -170,8 +176,7 @@
             </div>
             <div class="dark-mode">
               <a href="#">
-                <!-- <i class="fa fa-moon"></i> -->
-                <i class="gg-moon" id="iconMoon"></i>
+                <i class="fa fa-moon"></i>
               </a>
             </div>
           </div>
@@ -188,31 +193,35 @@
           <!-- <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="2" aria-label="Slide 3"></button> -->
         </div>
         <div class="carousel-inner">
-          <div class="carousel-item active" data-bs-interval="400000">
-            <img src="./img/banner2.jpg" class="w-100" alt="...">
-            <div class="carousel-caption d-none d-md-block">
-              <div class="container">
-                <h5>Master the Skills to Drive your Career</h5>
-                <a href="./about.html" class="btnKnowMore">Know More <i class="fa fa-arrow-right"></i></a>
-              </div>
-              
+          <div class="carousel-item active">
+            <img src="./img/banner2.jpg" class="d-block w-100" alt="Banner 1" />
+            <div
+              class="container carousel-caption carousel-caption-1 d-none d-md-block"
+            >
+              <h5>Master the Skills to Drive your Career</h5>
+              <a href="#">
+                <button type="button" class="btn btn-light">
+                  Know More <i class="fa fa-arrow-right"></i>
+                </button>
+              </a>
             </div>
           </div>
-          <div class="carousel-item" data-bs-interval="400000">
-            <img src="./img/banner3.jpg" class="d-block w-100" alt="...">
-            <div class="carousel-caption d-none d-md-block">
-              <div class="container">
-                <h5>Studious is the best choice for everyone</h5>
-                <a href="./about.html" class="btnKnowMore">Know More <i class="fa fa-arrow-right"></i></a>
-              </div>
-              
+          <div class="carousel-item">
+            <img src="./img/banner3.jpg" class="d-block w-100" alt="Banner 2" />
+            <div
+              class="container carousel-caption carousel-caption-1 d-none d-md-block"
+            >
+              <h5>Studious is the best choice for everyone</h5>
+              <a href="#">
+                <button type="button" class="btn btn-light">
+                  Know More <i class="fa fa-arrow-right"></i>
+                </button>
+              </a>
             </div>
           </div>
-          
         </div>
-        
       </div>
-    </section> 
+    </section>
 
     <!-- SERVICES -->
     <section class="services">
@@ -264,7 +273,7 @@
         </div>
         <div class="content">
           <div class="row">
-            <div class="col col-lg-4">
+            <div class="col col-4">
               <div class="content-body">
                 <div class="content-img">
                   <i class="fa fa-graduation-cap"></i>
@@ -280,7 +289,7 @@
                 </div>
               </div>
             </div>
-            <div class="col col-lg-4">
+            <div class="col col-4">
               <div class="content-body">
                 <div class="content-img">
                   <i class="fa fa-users"></i>
@@ -296,7 +305,7 @@
                 </div>
               </div>
             </div>
-            <div class="col col-lg-4">
+            <div class="col col-4">
               <div class="content-body">
                 <div class="content-img">
                   <i class="fa fa-book"></i>
@@ -719,7 +728,7 @@
                 </div>
               </div>
               <div class="item-col col-md-6">
-                <div class="item">
+                <div class="item item-2">
                   <div class="icon">
                     <i class="fa-solid fa-download"></i>
                   </div>
