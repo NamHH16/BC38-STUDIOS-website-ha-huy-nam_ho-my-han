@@ -1,0 +1,8 @@
+CHỦ ĐỀ: STUDIOUS
+
+- Hà Huy Nam: 
+	+ index.html, email-template.html, landing-single.html
+	+ responsive, animation
+- Hồ Mỹ Hân: 
+	+ about.html, courses.html, contact.html
+	+ responsive, animation
